@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@color/yellow"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/GameOver"
+            android:layout_width="264dp"
+            android:layout_height="166dp"
+            android:layout_gravity="center"
+            android:text="Game Over!!"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="24pt" />
+
+    <TextView
+            android:id="@+id/results"
+            android:layout_width="wrap_content"
+            android:layout_height="87dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10pt" />
+
+    <TextView
+            android:id="@+id/offer"
+            android:layout_width="wrap_content"
+            android:layout_height="166dp"
+            android:text="Press reset if you want to play the game again!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10pt" />
+
+    <LinearLayout
+            android:layout_width="201dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/reset"
+                android:background="@color/blue"
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="14pt"
+                android:text="Reset" />
+    </LinearLayout>
+
+</LinearLayout>

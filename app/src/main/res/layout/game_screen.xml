@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:id="@+id/gameArea"
+                                                   android:background="@color/sky_blue"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <Button
+            android:id="@+id/red_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            style="@style/AppTheme.Button"
+            app:layout_constraintBottom_toTopOf="@+id/yellow_color"
+            app:layout_constraintEnd_toStartOf="@+id/blue_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+            android:id="@+id/blue_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            style="@style/AppTheme.Button"
+            app:layout_constraintBottom_toTopOf="@+id/green_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/red_color"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+            android:id="@+id/yellow_color"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            style="@style/AppTheme.Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/green_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/red_color" />
+
+    <Button
+            android:id="@+id/green_color"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:background="@color/green"
+            style="@style/AppTheme.Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/yellow_color"
+            app:layout_constraintTop_toBottomOf="@+id/blue_color" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Simon</string>
+    <string name="simon">Simon</string>
+    <string name="easy_text">Easy</string>
+    <string name="medium_text">Medium</string>
+    <string name="hard_text">Hard</string>
+    <string name="displayResults">You scored %1$d points on round %2$d!!</string>
+</resources>
